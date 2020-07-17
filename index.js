@@ -82,3 +82,6 @@ app.get("/api/messages",function (req,res) {
     };
     res.send(data);
 });
+app.get("/shop",function (req,res) {
+    res.render("linhburger");
+});
